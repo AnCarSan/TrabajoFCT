@@ -9,10 +9,23 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
-    }
+    @IBOutlet weak var myButton: UIButton!
+       
+      let yourAttributes: [NSAttributedString.Key: Any] = [
+          .font: UIFont.systemFont(ofSize: 14),
+          .underlineStyle: NSUnderlineStyle.single.rawValue
+      ]
+             
+      
+      override func viewDidLoad() {
+         super.viewDidLoad()
+        
+         let attributeString = NSMutableAttributedString(
+            string: "¿Olvidaste tu contraseña?",
+            attributes: yourAttributes
+         )
+         myButton.setAttributedTitle(attributeString, for: .normal)
+      }
 
 
 }
