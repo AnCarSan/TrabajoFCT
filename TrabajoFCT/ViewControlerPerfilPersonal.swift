@@ -13,5 +13,5 @@ class ViewControllerPerfilPersonal: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
-    
+
 }
