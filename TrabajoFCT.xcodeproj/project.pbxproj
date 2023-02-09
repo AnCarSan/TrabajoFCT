@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D416DDE2993B38E001C48D0 /* TabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D416DDD2993B38E001C48D0 /* TabBarVC.swift */; };
+		0D416DE02993C9CE001C48D0 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D416DDF2993C9CE001C48D0 /* HomeVC.swift */; };
 		0D5313D2299246450033998E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5313D1299246450033998E /* AppDelegate.swift */; };
 		0D5313D4299246450033998E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5313D3299246450033998E /* SceneDelegate.swift */; };
 		0D5313D6299246450033998E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5313D5299246450033998E /* ViewController.swift */; };
@@ -30,6 +32,7 @@
 		0D53141B29926D390033998E /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0D53140F29926D390033998E /* Roboto-ThinItalic.ttf */; };
 		0D53141D2992736A0033998E /* ViewControlerPerfilPersonal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D53141C2992736A0033998E /* ViewControlerPerfilPersonal.swift */; };
 		0D53141F299289750033998E /* ViewControllerRegistro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D53141E299289750033998E /* ViewControllerRegistro.swift */; };
+		0D71239E29952BAC00F1642D /* CellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D71239D29952BAC00F1642D /* CellView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +53,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D416DDD2993B38E001C48D0 /* TabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarVC.swift; sourceTree = "<group>"; };
+		0D416DDF2993C9CE001C48D0 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		0D5313CE299246450033998E /* TrabajoFCT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrabajoFCT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D5313D1299246450033998E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0D5313D3299246450033998E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -77,6 +82,7 @@
 		0D53140F29926D390033998E /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
 		0D53141C2992736A0033998E /* ViewControlerPerfilPersonal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControlerPerfilPersonal.swift; sourceTree = "<group>"; };
 		0D53141E299289750033998E /* ViewControllerRegistro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerRegistro.swift; sourceTree = "<group>"; };
+		0D71239D29952BAC00F1642D /* CellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,12 +137,15 @@
 				0D5313D1299246450033998E /* AppDelegate.swift */,
 				0D5313D3299246450033998E /* SceneDelegate.swift */,
 				0D5313D5299246450033998E /* ViewController.swift */,
+				0D416DDD2993B38E001C48D0 /* TabBarVC.swift */,
 				0D5313D7299246450033998E /* Main.storyboard */,
 				0D53141C2992736A0033998E /* ViewControlerPerfilPersonal.swift */,
+				0D416DDF2993C9CE001C48D0 /* HomeVC.swift */,
 				0D53141E299289750033998E /* ViewControllerRegistro.swift */,
 				0D5313DA299246470033998E /* Assets.xcassets */,
 				0D5313DC299246470033998E /* LaunchScreen.storyboard */,
 				0D5313DF299246470033998E /* Info.plist */,
+				0D71239D29952BAC00F1642D /* CellView.swift */,
 			);
 			path = TrabajoFCT;
 			sourceTree = "<group>";
@@ -321,9 +330,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D5313D6299246450033998E /* ViewController.swift in Sources */,
+				0D416DE02993C9CE001C48D0 /* HomeVC.swift in Sources */,
 				0D53141F299289750033998E /* ViewControllerRegistro.swift in Sources */,
 				0D5313D2299246450033998E /* AppDelegate.swift in Sources */,
+				0D71239E29952BAC00F1642D /* CellView.swift in Sources */,
 				0D5313D4299246450033998E /* SceneDelegate.swift in Sources */,
+				0D416DDE2993B38E001C48D0 /* TabBarVC.swift in Sources */,
 				0D53141D2992736A0033998E /* ViewControlerPerfilPersonal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
